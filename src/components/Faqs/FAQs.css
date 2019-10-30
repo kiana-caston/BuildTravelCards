@@ -1,0 +1,43 @@
+.faq-table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+td {
+  border-bottom: 2px solid #CCC;
+  border-bottom-style: dotted;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.question-text{
+  display: inline-block;
+  max-width: 90%;
+}
+
+.icon-caret {
+  height: 25px;
+}
+
+.answer {
+  display: none;
+  max-width: 90%;
+}
+
+.faq-button {
+  font-size: 14px;
+  font-weight: 400;
+  background: transparent;
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px;
+  border: none;
+  float: right;
+}
+
+.faq-button:focus {
+  outline: none;
+}
